@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "SandboxProject">
+<test name = "RunAllTests">
+	<classes>
+	<class name ="sandbox.test.LoginTest"/>
+	<class name ="sandbox.test.RegistrationTest"/>
+	<class name ="sandbox.test.ProductsTest"/>
+	</classes>
+</test>
+
+</suite>
